@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/kbenamer/AndroidStudioProjects/trunk.r163200/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="custom_background_light">#7DAAC3</color>
+    <color name="custom_background_pressed">#244963</color>
+    <color name="custom_background_pressed_light">#588AA2</color>
+    <color name="custom_background_primary">#48758E</color>
+    <color name="custom_background_stroke">#4E6984</color>
+    <color name="custom_hint">#FFFF88</color>
+    <color name="custom_popup_background">#48758E</color>
+    <color name="custom_text">#F5F5F5</color>
+    <color name="transparent">#00ffffff</color>
+    <!-- From: file:/C:/Users/kbenamer/AndroidStudioProjects/trunk.r163200/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/C:/Users/kbenamer/AndroidStudioProjects/trunk.r163200/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">iRPrototype</string>
+    <string name="tv_title">TV</string>
+    <!-- From: file:/C:/Users/kbenamer/AndroidStudioProjects/trunk.r163200/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="CustomTextView001">
+        <item name="android:background">@drawable/custom_background_002</item>
+        <item name="android:popupBackground">@color/custom_popup_background</item>
+        <item name="android:textColor">@color/custom_text</item>
+        <item name="android:textColorHint">@color/custom_hint</item>
+    </style>
+    <style name="Header1_5">
+        <item name="android:textSize">22dp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+</resources>

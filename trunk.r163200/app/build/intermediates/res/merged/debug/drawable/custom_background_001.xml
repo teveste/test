@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="3dp"/>
+            <stroke android:width="1dp" android:color="@color/custom_background_stroke"/>
+            <gradient android:angle="-90" android:startColor="@color/custom_background_pressed" android:endColor="@color/custom_background_pressed_light"/>
+        </shape>
+    </item>
+    <item android:state_focused="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="3dp"/>
+            <stroke android:width="1dp" android:color="@color/custom_background_stroke"/>
+            <solid android:color="@color/custom_background_primary"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="3dp"/>
+            <stroke android:width="1dp" android:color="@color/custom_background_stroke"/>
+            <gradient android:angle="-90" android:startColor="@color/custom_background_light" android:endColor="@color/custom_background_primary"/>
+        </shape>
+    </item>
+</selector><!-- From: file:/C:/Users/kbenamer/AndroidStudioProjects/trunk.r163200/app/src/main/res/drawable/custom_background_001.xml -->

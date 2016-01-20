@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pelmorex.irprototype"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.TRANSMIT_IR" />
+    <uses-permission android:name="com.sony.remotecontrol.permission.API" />
+
+    <application
+        android:name="com.pelmorex.irprototype.application.IRApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <uses-library
+            android:name="com.sony.remotecontrol.ir.v1"
+            android:required="false" />
+
+        <activity
+            android:name="com.pelmorex.irprototype.activity.RemoteControlActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pelmorex.irprototype.activity.RemoteConfigurationActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

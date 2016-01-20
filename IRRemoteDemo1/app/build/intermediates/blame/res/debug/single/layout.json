@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\kbenamer\\AndroidStudioProjects\\IRRemoteDemo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\device_observer_view.xml",
+        "source": "C:\\Users\\kbenamer\\AndroidStudioProjects\\IRRemoteDemo1\\app\\src\\main\\res\\layout\\device_observer_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\kbenamer\\AndroidStudioProjects\\IRRemoteDemo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\remote_view.xml",
+        "source": "C:\\Users\\kbenamer\\AndroidStudioProjects\\IRRemoteDemo1\\app\\src\\main\\res\\layout\\remote_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\kbenamer\\AndroidStudioProjects\\IRRemoteDemo1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\device_list_view.xml",
+        "source": "C:\\Users\\kbenamer\\AndroidStudioProjects\\IRRemoteDemo1\\app\\src\\main\\res\\layout\\device_list_view.xml"
+    }
+]

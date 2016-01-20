@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="transparent">#00ffffff</color>
+
+    <color name="custom_text">#F5F5F5</color>
+    <color name="custom_hint">#FFFF88</color>
+    <color name="custom_popup_background">#48758E</color>
+    <color name="custom_background_primary">#48758E</color>
+    <color name="custom_background_stroke">#4E6984</color>
+    <color name="custom_background_light">#7DAAC3</color>
+    <color name="custom_background_pressed">#244963</color>
+    <color name="custom_background_pressed_light">#588AA2</color>
+</resources>

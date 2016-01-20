@@ -1,0 +1,8 @@
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<EditTextPreference
+		android:key="ip_address"
+		android:title="IRTrans IP addr"
+		android:dialogTitle="IP-Address"
+		android:summary="Input the IRTrans IP address" />
+</PreferenceScreen>

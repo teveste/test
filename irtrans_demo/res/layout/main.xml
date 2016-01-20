@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+ 	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical" >
+  	<TextView
+        android:id="@+id/headline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40px"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFF00"
+	    android:text="IRTrans Demo" />
+	 <TextView
+        android:id="@+id/space1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/headline"
+        android:textSize="20px"
+        android:layout_centerHorizontal="true"
+	    android:text="" />
+     <Button
+		android:id="@+id/button_up"
+		android:layout_width="wrap_content"
+   		android:layout_height="wrap_content"
+   		android:padding="15px"
+   		android:adjustViewBounds="true"
+   		android:layout_below="@id/space1"
+		android:layout_centerHorizontal="true"
+		android:text="  Up  " />
+	 <Button
+		android:id="@+id/button_ok"
+		android:layout_width="wrap_content"
+   		android:layout_height="wrap_content"
+   		android:padding="15px"
+   		android:adjustViewBounds="true"
+   		android:layout_centerHorizontal="true"
+   		android:layout_below="@id/button_up"
+		android:text="  OK  " />
+	 <Button
+		android:id="@+id/button_left"
+		android:layout_width="wrap_content"
+   		android:layout_height="wrap_content"
+   		android:padding="15px"
+   		android:adjustViewBounds="true"
+   		android:layout_toLeftOf="@id/button_ok"
+   		android:layout_alignTop="@id/button_ok"
+   		android:layout_below="@id/button_up"
+		android:text="Left" />
+	 <Button
+		android:id="@+id/button_right"
+		android:layout_width="wrap_content"
+   		android:layout_height="wrap_content"
+   		android:padding="15px"
+   		android:adjustViewBounds="true"
+   		android:layout_toRightOf="@id/button_ok"
+   		android:layout_alignTop="@id/button_ok"
+		android:layout_centerHorizontal="true"
+		android:text="Right" />
+	 <Button
+		android:id="@+id/button_down"
+		android:layout_width="wrap_content"
+   		android:layout_height="wrap_content"
+   		android:padding="15px"
+   		android:adjustViewBounds="true"
+   		android:layout_below="@id/button_ok"
+		android:layout_centerHorizontal="true"
+		android:text="Down" />
+	 <TextView
+        android:id="@+id/space2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_down"
+        android:textSize="20px"
+        android:layout_centerHorizontal="true"
+	    android:text="" />
+	 <Button
+		android:id="@+id/button_play"
+		android:layout_width="wrap_content"
+   		android:layout_height="wrap_content"
+   		android:padding="15px"
+   		android:adjustViewBounds="true"
+   		android:layout_centerHorizontal="true"
+   		android:layout_below="@id/space2"
+		android:text="Play " />
+	 <Button
+		android:id="@+id/button_pause"
+		android:layout_width="wrap_content"
+   		android:layout_height="wrap_content"
+   		android:padding="15px"
+   		android:adjustViewBounds="true"
+   		android:layout_toLeftOf="@id/button_play"
+   		android:layout_alignTop="@id/button_play"
+   		android:layout_below="@id/button_up"
+		android:text="Pause" />
+	 <Button
+		android:id="@+id/button_stop"
+		android:layout_width="wrap_content"
+   		android:layout_height="wrap_content"
+   		android:padding="15px"
+   		android:adjustViewBounds="true"
+   		android:layout_toRightOf="@id/button_play"
+   		android:layout_alignTop="@id/button_play"
+		android:layout_centerHorizontal="true"
+		android:text="Stop " />
+	 <TextView
+        android:id="@+id/space3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_stop"
+        android:textSize="20px"
+        android:layout_centerHorizontal="true"
+	    android:text="" />
+	 <Button
+		android:id="@+id/button_vol_up"
+		android:layout_width="wrap_content"
+   		android:layout_height="wrap_content"
+   		android:padding="15px"
+   		android:adjustViewBounds="true"
+   		android:layout_below="@id/space3"
+		android:text="Vol +" />
+	 <Button
+		android:id="@+id/button_vol_down"
+		android:layout_width="wrap_content"
+   		android:layout_height="wrap_content"
+   		android:padding="15px"
+   		android:adjustViewBounds="true"
+   		android:layout_toRightOf="@id/button_vol_up"
+   		android:layout_alignTop="@id/button_vol_up"
+		android:text="Vol -" />
+</RelativeLayout>
